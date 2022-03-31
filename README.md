@@ -1,6 +1,20 @@
-COMO RODAR O PROJETO BAIXADO
-Instalar todas as dependencias indicada pelo package.json
-### npm install
+Projeto React JS referente ao case da ITSS-Tecnologia
 
-Rodar o projeto React 
-### npm start
+### Tecnologias:
+ 
+ * JavaScript
+ * React JS
+ * Node JS
+ * Npm
+ * FireBase
+
+### Funcionalidade:
+ * Tela de edição de cadastro de usuário
+
+### Executar:
+
+ * Instalar todas as dependencias indicada pelo package.json
+    ### npm install
+
+ * Rodar o projeto React 
+    ### npm start
