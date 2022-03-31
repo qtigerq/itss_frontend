@@ -1,8 +1,7 @@
 Projeto React JS referente ao case da ITSS-Tecnologia
 
 ### Tecnologias:
- 
- * JavaScript
+
  * React JS
  * Node JS
  * Npm
