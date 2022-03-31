@@ -1,0 +1,38 @@
+.userdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.userdata h3 {
+    text-align: left;
+    width: 60vh;
+}
+
+.userdata h3 a {
+    color: #94e1f8;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding-left: 0.5em;
+    cursor: pointer;
+}
+
+.userdata .noButton {
+    border: 0;
+    background-color: transparent;
+    color: #61bde2;
+    cursor: pointer;
+}
+
+.message {
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+    border: 1px solid #CCC;
+}

@@ -1,0 +1,87 @@
+.form {
+    width: 60vh;
+}
+
+.form .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo input[type='file'] {
+    display: none
+}
+ 
+.logo label {
+    background-color: transparent;
+    color: #61bde2;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin: 0.8em;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.logo p,
+.checkalerts {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #777777;
+    width: 100%;
+}
+
+.checkalerts input {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+    box-shadow: -2px 2px 1px #CCC;
+}
+
+.logo a{
+    font-size: 0.8em;
+    color: #61bde2;
+}
+
+.logo a:visited {
+    color: #61bde2;
+}
+
+/* FORM GRID*/
+.item1 { grid-area: name; }
+.item2 { grid-area: cpf_cel; }
+.item3 { grid-area: birthday_phone; }
+.item4 { grid-area: email; }
+.item5 { grid-area: logo; }
+.item6l { grid-area: address; }
+.item6 { grid-area: zip_number; }
+.item7 { grid-area: street_district; }
+.item8 { grid-area: city; }
+.item9 { grid-area: state; }
+
+.gridcontainer {
+  display: grid;
+  grid-template-areas:
+    'name name name name name name name name name name'
+    'cpf_cel cpf_cel cpf_cel cpf_cel cpf_cel cpf_cel birthday_phone birthday_phone birthday_phone birthday_phone'
+    'email email email email email email email email email email'
+    'logo logo logo logo logo logo logo logo logo logo'
+    'address address address address address address address address address address'
+    'zip_number zip_number zip_number street_district street_district street_district street_district street_district street_district street_district'
+    'city city city city city city state state state state';
+  column-gap: 10px;
+  padding: 2px;
+}
+
+.gridcontainer > div {
+    
+}

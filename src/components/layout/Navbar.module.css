@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2484aa;
+    height: 60px;
+    border-bottom: 8px solid #61bde2;
+}
+
+.logo {
+    background-image: url(../../img/logo-classi.svg);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+/* DROPDOWN MENU*/
+.dropbtn {
+    margin-top: 8px;
+    background-color: #2484aa;
+    color: #FFF;
+    font-size: 2.5em;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdowncontent {
+    display: none;
+    position: absolute;
+    right: 0.1em;
+    background-color: #61bde2;
+    min-width: 185px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    font-size: 0.9em;
+    z-index: 1;
+}
+
+.dropdowncontent a {
+    color: #FFF;
+    padding: 0.3em 0.5em;
+    text-decoration: none;
+    display: block;
+    margin: 0.5em;
+}
+
+.dropdowncontent a:hover {
+    background-color: #FFF;
+    color: #61bde2;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+.dropdowncontent .linediv{
+    border-bottom: 1px solid #FFF;
+    cursor: default;
+}
+
+.dropdowncontent .linediv:hover{
+    background-color: #61bde2;
+    color: #FFF;
+}

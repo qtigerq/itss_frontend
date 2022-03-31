@@ -1,0 +1,22 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    font-weight: bold;
+    padding-left: 0.5em;
+    color: #777;
+}
+
+.form_control input{
+    padding: 0.7em;
+    background-color: #eee;
+    height: 15px;
+    border: 1px solid #AAA;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
